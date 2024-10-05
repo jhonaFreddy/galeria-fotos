@@ -31,7 +31,7 @@ export default function App() {
       </h1>
       
       <div className='py-8 flex justify-center gap-4'>
-        <input type="text" name="" id="" placeholder='Search' className='w-80 px-8 h-9 border rounded-md shadow'
+        <input type="text" name="" id="" placeholder='Search' className='w-80 px-8  h-9 border rounded-md shadow'
           onChange={(e) => setSearch(e.target.value)} />
       </div>
 
