@@ -58,7 +58,7 @@ export default function App() {
       </div>
 
      
-      <div className='flex row-auto flex-wrap gap-8 w-full justify-center p-10'>
+      <div className='flex row-auto flex-wrap gap-8 w-full justify-center p-20'>
         {results && results.map((rs) => (
           <Photo key={rs.id} image={rs} />
         ))}
